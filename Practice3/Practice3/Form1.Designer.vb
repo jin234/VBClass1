@@ -35,7 +35,7 @@ Partial Class Form1
         'LabelPrice
         '
         Me.LabelPrice.AutoSize = True
-        Me.LabelPrice.Location = New System.Drawing.Point(61, 71)
+        Me.LabelPrice.Location = New System.Drawing.Point(39, 38)
         Me.LabelPrice.Name = "LabelPrice"
         Me.LabelPrice.Size = New System.Drawing.Size(31, 13)
         Me.LabelPrice.TabIndex = 0
@@ -43,7 +43,7 @@ Partial Class Form1
         '
         'TextBoxPrice
         '
-        Me.TextBoxPrice.Location = New System.Drawing.Point(106, 68)
+        Me.TextBoxPrice.Location = New System.Drawing.Point(84, 35)
         Me.TextBoxPrice.Name = "TextBoxPrice"
         Me.TextBoxPrice.Size = New System.Drawing.Size(237, 20)
         Me.TextBoxPrice.TabIndex = 1
@@ -51,7 +51,7 @@ Partial Class Form1
         'LabelVat
         '
         Me.LabelVat.AutoSize = True
-        Me.LabelVat.Location = New System.Drawing.Point(61, 99)
+        Me.LabelVat.Location = New System.Drawing.Point(39, 66)
         Me.LabelVat.Name = "LabelVat"
         Me.LabelVat.Size = New System.Drawing.Size(23, 13)
         Me.LabelVat.TabIndex = 2
@@ -59,7 +59,7 @@ Partial Class Form1
         '
         'Button7p
         '
-        Me.Button7p.Location = New System.Drawing.Point(106, 94)
+        Me.Button7p.Location = New System.Drawing.Point(84, 61)
         Me.Button7p.Name = "Button7p"
         Me.Button7p.Size = New System.Drawing.Size(75, 23)
         Me.Button7p.TabIndex = 3
@@ -68,7 +68,7 @@ Partial Class Form1
         '
         'Button10p
         '
-        Me.Button10p.Location = New System.Drawing.Point(187, 94)
+        Me.Button10p.Location = New System.Drawing.Point(165, 61)
         Me.Button10p.Name = "Button10p"
         Me.Button10p.Size = New System.Drawing.Size(75, 23)
         Me.Button10p.TabIndex = 4
@@ -77,7 +77,7 @@ Partial Class Form1
         '
         'Button15p
         '
-        Me.Button15p.Location = New System.Drawing.Point(268, 94)
+        Me.Button15p.Location = New System.Drawing.Point(246, 61)
         Me.Button15p.Name = "Button15p"
         Me.Button15p.Size = New System.Drawing.Size(75, 23)
         Me.Button15p.TabIndex = 5
@@ -87,7 +87,7 @@ Partial Class Form1
         'LabelTotal
         '
         Me.LabelTotal.AutoSize = True
-        Me.LabelTotal.Location = New System.Drawing.Point(61, 127)
+        Me.LabelTotal.Location = New System.Drawing.Point(39, 94)
         Me.LabelTotal.Name = "LabelTotal"
         Me.LabelTotal.Size = New System.Drawing.Size(31, 13)
         Me.LabelTotal.TabIndex = 6
@@ -95,7 +95,7 @@ Partial Class Form1
         '
         'TextBoxTotal
         '
-        Me.TextBoxTotal.Location = New System.Drawing.Point(106, 127)
+        Me.TextBoxTotal.Location = New System.Drawing.Point(84, 94)
         Me.TextBoxTotal.Name = "TextBoxTotal"
         Me.TextBoxTotal.ReadOnly = True
         Me.TextBoxTotal.Size = New System.Drawing.Size(237, 20)
@@ -105,7 +105,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(370, 157)
         Me.Controls.Add(Me.TextBoxTotal)
         Me.Controls.Add(Me.LabelTotal)
         Me.Controls.Add(Me.Button15p)
@@ -115,7 +115,7 @@ Partial Class Form1
         Me.Controls.Add(Me.TextBoxPrice)
         Me.Controls.Add(Me.LabelPrice)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Vat"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
