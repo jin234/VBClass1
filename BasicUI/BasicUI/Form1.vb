@@ -4,6 +4,6 @@
     End Sub
 
     Private Sub ButtonOK_Click(sender As Object, e As EventArgs) Handles ButtonOK.Click
-
+        LabelFullNameOut.Text = TextBoxName.Text & " " & TextBoxSurname.Text
     End Sub
 End Class

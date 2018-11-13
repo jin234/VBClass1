@@ -23,8 +23,8 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.TextBoxName = New System.Windows.Forms.TextBox()
-        Me.LabelNameIn = New System.Windows.Forms.Label()
-        Me.LabelSurnameIn = New System.Windows.Forms.Label()
+        Me.LabelName = New System.Windows.Forms.Label()
+        Me.LabelSurname = New System.Windows.Forms.Label()
         Me.TextBoxSurname = New System.Windows.Forms.TextBox()
         Me.LabelFullName = New System.Windows.Forms.Label()
         Me.ButtonOK = New System.Windows.Forms.Button()
@@ -39,23 +39,23 @@ Partial Class Form1
         Me.TextBoxName.TabIndex = 0
         Me.TextBoxName.Text = "( Input Your Name )"
         '
-        'LabelNameIn
+        'LabelName
         '
-        Me.LabelNameIn.AutoSize = True
-        Me.LabelNameIn.Location = New System.Drawing.Point(76, 52)
-        Me.LabelNameIn.Name = "LabelNameIn"
-        Me.LabelNameIn.Size = New System.Drawing.Size(35, 13)
-        Me.LabelNameIn.TabIndex = 1
-        Me.LabelNameIn.Text = "Name"
+        Me.LabelName.AutoSize = True
+        Me.LabelName.Location = New System.Drawing.Point(76, 52)
+        Me.LabelName.Name = "LabelName"
+        Me.LabelName.Size = New System.Drawing.Size(35, 13)
+        Me.LabelName.TabIndex = 1
+        Me.LabelName.Text = "Name"
         '
-        'LabelSurnameIn
+        'LabelSurname
         '
-        Me.LabelSurnameIn.AutoSize = True
-        Me.LabelSurnameIn.Location = New System.Drawing.Point(76, 78)
-        Me.LabelSurnameIn.Name = "LabelSurnameIn"
-        Me.LabelSurnameIn.Size = New System.Drawing.Size(49, 13)
-        Me.LabelSurnameIn.TabIndex = 3
-        Me.LabelSurnameIn.Text = "Surname"
+        Me.LabelSurname.AutoSize = True
+        Me.LabelSurname.Location = New System.Drawing.Point(76, 78)
+        Me.LabelSurname.Name = "LabelSurname"
+        Me.LabelSurname.Size = New System.Drawing.Size(49, 13)
+        Me.LabelSurname.TabIndex = 3
+        Me.LabelSurname.Text = "Surname"
         '
         'TextBoxSurname
         '
@@ -100,20 +100,20 @@ Partial Class Form1
         Me.Controls.Add(Me.LabelFullNameOut)
         Me.Controls.Add(Me.ButtonOK)
         Me.Controls.Add(Me.LabelFullName)
-        Me.Controls.Add(Me.LabelSurnameIn)
+        Me.Controls.Add(Me.LabelSurname)
         Me.Controls.Add(Me.TextBoxSurname)
-        Me.Controls.Add(Me.LabelNameIn)
+        Me.Controls.Add(Me.LabelName)
         Me.Controls.Add(Me.TextBoxName)
         Me.Name = "Form1"
-        Me.Text = "v"
+        Me.Text = "Full Name Generator"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents TextBoxName As TextBox
-    Friend WithEvents LabelNameIn As Label
-    Friend WithEvents LabelSurnameIn As Label
+    Friend WithEvents LabelName As Label
+    Friend WithEvents LabelSurname As Label
     Friend WithEvents TextBoxSurname As TextBox
     Friend WithEvents LabelFullName As Label
     Friend WithEvents ButtonOK As Button
