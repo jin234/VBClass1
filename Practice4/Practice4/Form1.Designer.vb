@@ -146,7 +146,7 @@ Partial Class Form1
         Me.Controls.Add(Me.LabelNumber1)
         Me.Controls.Add(Me.TextBoxNumber1)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Calculator"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
