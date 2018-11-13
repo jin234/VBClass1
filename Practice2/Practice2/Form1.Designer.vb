@@ -32,7 +32,7 @@ Partial Class Form1
         '
         'ButtonSum
         '
-        Me.ButtonSum.Location = New System.Drawing.Point(82, 115)
+        Me.ButtonSum.Location = New System.Drawing.Point(35, 92)
         Me.ButtonSum.Name = "ButtonSum"
         Me.ButtonSum.Size = New System.Drawing.Size(96, 36)
         Me.ButtonSum.TabIndex = 12
@@ -42,7 +42,7 @@ Partial Class Form1
         'LabelNumber2
         '
         Me.LabelNumber2.AutoSize = True
-        Me.LabelNumber2.Location = New System.Drawing.Point(79, 76)
+        Me.LabelNumber2.Location = New System.Drawing.Point(32, 53)
         Me.LabelNumber2.Name = "LabelNumber2"
         Me.LabelNumber2.Size = New System.Drawing.Size(53, 13)
         Me.LabelNumber2.TabIndex = 10
@@ -50,15 +50,15 @@ Partial Class Form1
         '
         'TextBoxNumber2
         '
-        Me.TextBoxNumber2.Location = New System.Drawing.Point(149, 73)
+        Me.TextBoxNumber2.Location = New System.Drawing.Point(102, 50)
         Me.TextBoxNumber2.Name = "TextBoxNumber2"
-        Me.TextBoxNumber2.Size = New System.Drawing.Size(437, 20)
+        Me.TextBoxNumber2.Size = New System.Drawing.Size(149, 20)
         Me.TextBoxNumber2.TabIndex = 9
         '
         'LabelNumber1
         '
         Me.LabelNumber1.AutoSize = True
-        Me.LabelNumber1.Location = New System.Drawing.Point(79, 50)
+        Me.LabelNumber1.Location = New System.Drawing.Point(32, 27)
         Me.LabelNumber1.Name = "LabelNumber1"
         Me.LabelNumber1.Size = New System.Drawing.Size(53, 13)
         Me.LabelNumber1.TabIndex = 8
@@ -66,14 +66,14 @@ Partial Class Form1
         '
         'TextBoxNumber1
         '
-        Me.TextBoxNumber1.Location = New System.Drawing.Point(149, 47)
+        Me.TextBoxNumber1.Location = New System.Drawing.Point(102, 24)
         Me.TextBoxNumber1.Name = "TextBoxNumber1"
-        Me.TextBoxNumber1.Size = New System.Drawing.Size(437, 20)
+        Me.TextBoxNumber1.Size = New System.Drawing.Size(149, 20)
         Me.TextBoxNumber1.TabIndex = 7
         '
         'ButtonClear
         '
-        Me.ButtonClear.Location = New System.Drawing.Point(199, 115)
+        Me.ButtonClear.Location = New System.Drawing.Point(152, 92)
         Me.ButtonClear.Name = "ButtonClear"
         Me.ButtonClear.Size = New System.Drawing.Size(99, 36)
         Me.ButtonClear.TabIndex = 13
@@ -84,7 +84,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(616, 192)
+        Me.ClientSize = New System.Drawing.Size(272, 148)
         Me.Controls.Add(Me.ButtonClear)
         Me.Controls.Add(Me.ButtonSum)
         Me.Controls.Add(Me.LabelNumber2)
@@ -92,7 +92,7 @@ Partial Class Form1
         Me.Controls.Add(Me.LabelNumber1)
         Me.Controls.Add(Me.TextBoxNumber1)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Sum"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
